@@ -1,226 +1,233 @@
 :root {
-    --primary-color: seashell;
-    --secondary-color: rgb(106, 236, 236);
-    --background-color: rgba(0, 0, 0, 0.9);
-    --primary-font: 'Helvetica', Arial, sans-serif;
-    --primary-font-size: 22px;
+  --primary-color: seashell;
+  --secondary-color: rgb(106, 236, 236);
+  --background-color: rgba(0, 0, 0, 0.9);
+  --primary-font: "Helvetica", Arial, sans-serif;
+  --primary-font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 p {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
+  font-family: var(--primary-font);
+  color: var(--primary-color);
 }
 
 h2 {
-    font-size: 1.7em;
+  font-size: 1.7em;
 }
 
 h3 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 h4 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 nav {
-    width: 100%;
-    border-bottom: 1px solid var(--primary-color);
-    position: fixed;
-    background-color: black;
+  width: 100%;
+  border-bottom: 1px solid var(--primary-color);
+  position: fixed;
+  background-color: black;
 }
 
 #nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #nav-links {
-    flex: inherit;
+  flex: inherit;
 }
 
 #nav-menu img {
-    height: 50px;
-    padding: 10px;
+  height: 50px;
+  padding: 10px;
 }
 
 #nav-links li {
-    display: inline;
-    font-family: var(--primary-font);
-    font-size: var(--primary-font-size);
-    color: var(--primary-color);
-    margin-left: 10px;
-    text-decoration: underline;
-    cursor: pointer;
-    padding: 10px;
+  display: inline;
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  color: var(--primary-color);
+  margin-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px;
 }
 
 #nav-links li:hover {
-    color: var(--secondary-color);
-    transition: 0.05s;
+  color: var(--secondary-color);
+  transition: 0.05s;
 }
 
 .head {
-    display: flex;
+  display: flex;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(resources/img-mission-background.jpg);
-    height: 700px;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 73px;
 }
 
 .header-content {
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 
 .header-content h2 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 section {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .first-section {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
 }
 
-.first-section h2, h4 {
-    margin-bottom: 20px;
+.first-section h2,
+h4 {
+  margin-bottom: 20px;
 }
 
 .tea-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
-    padding: 15px;
+  padding: 15px;
 }
 
 .card h4 {
-    margin-top: 10px;
-    margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .first-section img {
-    max-width: 300px;
-    max-height: 200px;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 .second-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(resources/img-locations-background.jpg);
-    height: 500px;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(resources/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .title {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .card-content {
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
-    gap: 40px;
-    align-items: center;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
 }
 
 .location-card {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    width: 300px;
-    padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  padding: 10px 0;
 }
 
-.location-card h3, p {
-    padding: 20px;
+.location-card h3,
+p {
+  padding: 20px;
 }
 
 .location-card p {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .third-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 .third-section h2 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .third-section a {
-    color: var(--primary-color);
-    cursor: pointer;
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .third-section a:hover {
-    color: var(--secondary-color);
-    transition: 0.05s;
+  color: var(--secondary-color);
+  transition: 0.05s;
 }
 
 .third-section p {
-    margin-top: 15px;
-    margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 footer {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 footer p {
-    text-align: left;
-    font-weight: bold;
+  text-align: left;
+  font-weight: bold;
 }
